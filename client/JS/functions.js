@@ -5,7 +5,7 @@ function rQuestion() {
     var question = $("#question").val();
     $.ajax({
         type: "GET",
-        url: "http://localhost:3000/api/watson?question=" + question,
+        url: "/api/watson?question=" + question,
         success: function (response) {
             console.log(response);
             displayAnswer(response);
