@@ -11,8 +11,6 @@ h1 {
     text-shadow: -1px 0 #e0e0e0,0 1px #e0e0e0,1px 0 #e0e0e0,0 -1px #e0e0e0;
     border: 1px solid transparent;
     margin-top: 40px;
-
-
 }
 
 .watsonlogo {
@@ -42,6 +40,7 @@ body {
     text-align: left;
     width: 100%;
     height: 100%;
+    margin: 0px;
 }
 
 p {
@@ -72,7 +71,6 @@ p {
     text-transform: uppercase;
     font-size: 8;
     position: relative;
-    height: 20px;
     text-align: center;
     text-shadow: -0.5px 0 #e0e0e0,0 0.5px #e0e0e0,0.5px 0 #e0e0e0,0 -0.5px #e0e0e0;
 
@@ -111,20 +109,20 @@ p {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba(142, 142, 142, 0.5);
     text-shadow: -0.2px 0 #e0e0e0,0 0.2px #e0e0e0,0.2px 0 #e0e0e0,0 -0.2px #e0e0e0;
-    font-size: 13;
+    font-size: 13px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
     color: rgba(142, 142, 142, 0.5);
     text-shadow: -0.2px 0 #e0e0e0,0 0.2px #e0e0e0,0.2px 0 #e0e0e0,0 -0.2px #e0e0e0;
-    font-size: 13;
+    font-size: 13px;
 }
 :-ms-input-placeholder { /* IE 10+ */
     color: rgba(142, 142, 142, 0.5);
     text-shadow: -0.2px 0 #e0e0e0,0 0.2px #e0e0e0,0.2px 0 #e0e0e0,0 -0.2px #e0e0e0;
-    font-size: 13;
+    font-size: 13px;
 }
 :-moz-placeholder { /* Firefox 18- */
     color: rgba(142, 142, 142, 0.5);
     text-shadow: -0.2px 0 #e0e0e0,0 0.2px #e0e0e0,0.2px 0 #e0e0e0,0 -0.2px #e0e0e0;
-    font-size: 13;
+    font-size: 13px;
 }
