@@ -1,0 +1,5 @@
+applications:
+- host: kk-frontier
+  name: kk-conversation
+  memory: 64M
+  domain: mybluemix.net
